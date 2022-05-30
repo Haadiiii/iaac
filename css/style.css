@@ -1,24 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&display=swap');
 
 body {
-  background-color: #6f23ff;
+  background-color: #4070f4;;
   font-family: 'Montserrat', sans-serif;
-  margin: 50px 100px 50px 100px;
+
   color: black;
-  text-align: center;
+   justify-content: center; 
+   
   
 }
 *{
   font-family: 'Domine', serif;
+  margin: 0;
+  padding: 0;
+  
 }
-h1,p{
+#title{
+    text-align: center;
+     
 
 }
-form{
- display: inline-block;
-
+#description{
+    text-align: center;
 }
-#survey-form{
-    border: 1px, solid white;
-
+  form{
+ display:inline-block ;
+margin-left:25vw; 
+width: 50vw;
+border: 1px, solid white;
 }
+
+
+label{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 7px;
+    font-weight: lighter;
+}
+input[type=text],[type=number],[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 ;
+    outline: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
